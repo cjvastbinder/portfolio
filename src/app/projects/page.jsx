@@ -178,6 +178,17 @@ export default function Projects() {
                   <p className="dark:text-zinc-300">https://company.com</p>
                 </div>
               </div>
+              <div className="w-full max-w-[340px] h-auto">
+                <div className="flex justify-center items-center border dark:border-zinc-700 shadow-md rounded-full w-12 h-12 mt-5 ml-5">
+                  <img className="w-[32px] h-[32px]" src="./about-pic/svg.svg" />
+                </div>
+                <h1 className="font-semibold ml-5 mt-2 dark:text-zinc-100">Company</h1>
+                <p className="m-5">Creating technology to empower civilians to explore space on their own terms.</p>
+                <div className="flex ml-5">
+                  <img className="w-[24px] h-[24px]" src="./about-pic/Link-logo.svg" />
+                  <p className="dark:text-zinc-300">https://company.com</p>
+                </div>
+              </div>
             </div>
 
             {/* Projects End */}

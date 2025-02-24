@@ -102,28 +102,34 @@ export default function About() {
             {/* Leftside */}
             <div className="w-[464px] max-w-[824px] h-[824px] gap-6 text-center lg:text-left">
               <h1 className="text-5xl dark:text-zinc-100">
-                I&apos;m Caleb Vastbinder. I live in New York City, where I develop the future.
+                I&apos;m Caleb Vastbinder. I live in Taylorsville Utah, where I develop the future.
               </h1>
               <div className="dark:text-zinc-400 text-slate-600">
                 <p className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet
-                  consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut
-                  et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
+                  I was married on September 29, 2023, which was one of the most significant milestones of my life. It
+                  was a beautiful day filled with love, and I feel incredibly blessed to share my life with my wife. Our
+                  journey together has been full of meaningful moments, and I’m excited for everything we’ll continue to
+                  experience as we build our future.
                 </p>
                 <p className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet
-                  consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut
-                  et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
+                  Currently, I’m studying Computer Science, which has been a passion of mine for as long as I can
+                  remember. The field fascinates me because of the endless possibilities it offers for problem-solving
+                  and creativity. From writing code to designing software, every aspect of programming excites me. I’ve
+                  always been drawn to the challenge of making something work, and programming allows me to constantly
+                  push myself to learn and improve.
                 </p>
                 <p className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet
-                  consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut
-                  et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
+                  Growing up in Seattle, Washington, I’ve been surrounded by a tech-driven environment, which has
+                  definitely shaped my career path. My dad is a web and app developer, and his influence has been a big
+                  part of my journey. I’ve watched him work on various projects, and his passion for technology inspired
+                  me to follow a similar path. I’ve been programming for most of my life, starting with small projects
+                  and gradually building up my skills over the years.
                 </p>
                 <p className="pt-6">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet
-                  consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut
-                  et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
+                  As I continue my studies, I’m excited to see how I can use my knowledge to make a positive impact in
+                  the world. The tech industry is constantly evolving, and I’m eager to be part of that change. Whether
+                  it's developing new apps, improving systems, or creating innovative solutions, I’m ready to take on
+                  the challenges that come with being a part of this field.
                 </p>
               </div>
             </div>
@@ -162,7 +168,7 @@ export default function About() {
           </div>
           {/* Main End */}
           {/* Footer */}
-          <footer className=" max-w-[1280px] w-full mx-auto flex flex-col sm:flex-row justify-between items-center p-4 border-t dark:border-zinc-700">
+          <footer className=" max-w-[1280px] w-full mx-auto flex flex-col sm:flex-row justify-between items-center mt-52 p-4 border-t dark:border-zinc-700">
             <nav>
               <ul className="flex space-x-5 bg-[#FFFFFF] dark:bg-zinc-900 dark:text-white w-[280px] h-[40px] pr-3 pl-4">
                 <li>
