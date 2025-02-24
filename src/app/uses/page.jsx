@@ -33,7 +33,7 @@ export default function Uses() {
       <main className="flex justify-center items-center min-h-screen">
         <div className="w-full max-w-[1280px] h-auto bg-white dark:bg-zinc-900">
           {/* Header */}
-          <header className="max-w-[1280px] w-full mx-auto flex justify-between items-center p-4">
+          <header className="max-w-[1280px] w-full mx-auto flex justify-between items-center p-4 mt-3">
             <div></div>
             <nav className="flex items-center relative">
               <div className="lg:hidden">
@@ -73,7 +73,7 @@ export default function Uses() {
               )}
 
               {/* Navigation Links for Larger Screens */}
-              <ul className="hidden lg:flex flex-row space-x-5 dark:text-white dark:bg-zinc-800 dark:border-[#FFFFFF1A] px-4 py-2 rounded-full border border-gray-100 justify-center items-center">
+              <ul className="hidden lg:flex flex-row space-x-5 dark:text-white dark:bg-zinc-800 dark:border-[#FFFFFF1A] px-4 py-2 rounded-full border border-gray-100 justify-center items-center shadow-md">
                 {["Home", "About", "Projects", "Uses"].map((item, i) => (
                   <li key={i}>
                     <Link href={item === "Home" ? "/" : `/${item.toLowerCase()}`} className="relative group">
@@ -106,7 +106,7 @@ export default function Uses() {
           {/* Main */}
           <div className="w-full max-w-[1028px] h-auto">
             {/* Intro */}
-            <div className="w-full max-w-[672px] ml-10 lg:ml-28">
+            <div className="w-full max-w-[672px] ml-10 mt-12 lg:ml-28">
               <p className="text-3xl lg:text-5xl pb-8 font-semibold dark:text-zinc-100">
                 Software I use, gadgets I love, and other things I recommend.
               </p>

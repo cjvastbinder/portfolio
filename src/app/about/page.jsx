@@ -31,7 +31,7 @@ export default function About() {
       <main className="flex justify-center items-center min-h-screen">
         <div className="w-full max-w-[1280px] h-auto bg-white dark:bg-zinc-900">
           {/* Header */}
-          <header className="max-w-[1280px] w-full mx-auto flex justify-between items-center p-4">
+          <header className="max-w-[1280px] w-full mx-auto flex justify-between items-center p-4 mt-3">
             <div></div>
             <nav className="flex items-center relative">
               <div className="lg:hidden">
@@ -69,11 +69,11 @@ export default function About() {
                 </div>
               )}
               {/* Navigation Links for Larger Screens */}
-              <ul className="hidden lg:flex flex-row space-x-5 dark:text-white dark:bg-zinc-800 dark:border-[#FFFFFF1A] px-4 py-2 rounded-full border border-gray-100 justify-center items-center">
+              <ul className="hidden lg:flex flex-row space-x-5 dark:text-white dark:bg-zinc-800 dark:border-[#FFFFFF1A] px-4 py-2 rounded-full border border-gray-100 justify-center items-center shadow-md">
                 {["Home", "About", "Projects", "Uses"].map((item, i) => (
                   <li key={i}>
                     <Link href={item === "Home" ? "/" : `/${item.toLowerCase()}`} className="relative group">
-                      <span className={`hover:text-[#14b8a6] ${item === "Home" ? "text-[#14b8a6]" : ""}`}>{item}</span>
+                      <span className={`hover:text-[#14b8a6] ${item === "About" ? "text-[#14b8a6]" : ""}`}>{item}</span>
                       <span className="absolute top-7 left-0 w-0 h-px bg-gradient-to-r from-white via-[#14B8A6] to-white group-hover:w-full"></span>
                     </Link>
                   </li>
