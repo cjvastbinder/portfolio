@@ -1,0 +1,4 @@
+export const metadata = {
+  title: "Portfolio - About",
+  description: "The about page of my portfolio.",
+};
